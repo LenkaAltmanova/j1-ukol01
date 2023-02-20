@@ -3,9 +3,76 @@ package cz.czechitas.java.ukol01;
 import cz.czechitas.java.ukol01.engine.*;
 
 public class HlavniProgram {
+    private Turtle zofka = new Turtle();
+
+    /*public void start() {
+        nakresliCtverec();
+        zofka.turnRight(90);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        nakresliCtverec();
+    }
+    private void nakresliCtverec() {
+        zofka.penDown();
+        for (int i = 0; i < 4; i++) {
+            zofka.move(50);
+            zofka.turnLeft(90);
+        }
+        zofka.penUp();
+    }
+
+     */
+
+
 
     public void start() {
-        Turtle zofka = new Turtle();
+        nakresliPrasatko();
+
+    }
+    private void nakresliPrasatko() {
+        zofka.penUp();
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(100);
+        zofka.penDown();
+        zofka.move(100);
+        zofka.turnRight(45);
+        zofka.move(71);
+        zofka.turnRight(90);
+        zofka.move(71);
+        zofka.turnRight(45);
+
+        for(int i = 0; i < 2; i++) {
+        zofka.move(100);
+        zofka.turnRight(90);
+    }
+        zofka.turnLeft(45);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
+        zofka.turnRight(90);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
+        zofka.turnLeft(45);
+        zofka.move(100);
+        zofka.turnLeft(45);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
+        zofka.turnRight(90);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
+        zofka.turnRight(45);
+        zofka.move(100);
+        zofka.turnRight(90);
+        zofka.move(120);
+    }
+
+
+
+
         /* první úkol + druhý ukol
         zofka.penUp();
         zofka.turnLeft(90);
@@ -76,7 +143,7 @@ public class HlavniProgram {
         Konec prvního a druhého úkolu
          */
         //sluníčko
-        zofka.penUp();
+        /*zofka.penUp();
         zofka.move(300);
         zofka.turnLeft(90);
         zofka.move(400);
@@ -334,16 +401,10 @@ public class HlavniProgram {
         zofka.move(60);
         zofka.turnLeft(70);
         zofka.move(40);
+
+         */
         //A
 
-
-
-
-
-
-
-
-    }
 
 
 
